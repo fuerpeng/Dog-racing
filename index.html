@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOGS</title>
+	<link rel="stylesheet" href="./normalize.css">
+	<link rel="stylesheet" href="./main.css">
+	<link rel="stylesheet" href="./animate.css">
+</head>
+<body>
+	<div class="body">
+		<div class="wrap">
+			<img src="./images/bg_wrap.png" id='bg' alt="">
+			<div id='app'>
+				<div class="count"></div>
+				<div class="start_line"></div>
+				<div class="road_line"></div>
+				<div class="dog_wrap">
+					<div id='dog1' class="dog dog_start">
+						<img src="./images/01.png" id='dog1s'>
+					</div>
+					<div id='dog2' class="dog dog_start">
+						<img src="./images/02.png" id='dog2s'>
+					</div>
+					<div id='dog3' class="dog dog_start">
+						<img src="./images/03.png" id='dog3s'>
+					</div>
+					<div id='dog4' class="dog dog_start">
+						<img src="./images/04.png" id='dog4s'>
+					</div>
+					<div id='dog5' class="dog dog_start">
+						<img src="./images/05.png" id='dog5s'>
+					</div>
+					<div id='dog6' class="dog dog_start">
+						<img src="./images/06.png" id='dog6s'>
+					</div>
+				</div>
+			
+				<div class='result animated'>
+					<div class="rank1 rank"></div>
+					<div class="rank2 rank"></div>
+					<div class="rank3 rank"></div>
+					<div class="rank4 rank"></div>
+					<div class="rank5 rank"></div>
+					<div class="rank6 rank"></div>
+				</div>
+				<div class="head_bg">
+					<div class="house1"></div>
+					<div class="house2"></div>
+					<div class="house3"></div>
+				</div>	
+				
+				<div class="clear"></div>
+			</div>
+			<div class="btn_wrap">
+					<a id='start'>开始赛狗</a>
+					<a id='reset'>再来一次</a>
+				</div>
+		</div>
+
+	</div>
+	<audio id='audio' loop>
+	  <source src="./images/dog.mp3" type="audio/mpeg">
+	</audio>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  	<script src="./js/main.js"></script>
+  	<script>
+
+  	</script>
+</body>
+</html>
